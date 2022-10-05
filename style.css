@@ -71,5 +71,48 @@ a {
 }
 
 .block{
+	padding: 5px 5px;
 	display: flex;
+	width: 400px;
+	height: fit-content;
+	border: 1px solid yellowgreen;
+	align-items: center;
+	border-radius: 5px;
+}
+
+input {
+	padding: 5px 0 5px 5px;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid yellowgreen;
+	border-radius: 5px
+}
+
+#list {
+	padding: 5px 5px;
+	margin-top: 5px;
+	display: flex;
+	width: 400px;
+	height: fit-content;
+	border: 1px solid yellowgreen;
+	border-radius: 5px;
+	flex-direction: column;
+}
+
+.button-style {
+	padding: 5px;
+	height: fit-content;
+	width: fit-content;
+	border-radius: 5px;
+	border: 1px solid grey;
+	cursor: pointer;
+	margin-left: 5px;
+	background-image: linear-gradient(180deg, #b3ffa9 0%, #bbffe3 100%);
+}
+
+body {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20px;
 }
